@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         main_fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), AddEditActivity.class);
+                Intent intent = new Intent(MainActivity.this, AddEditActivity.class);
                 startActivity(intent);
                 //과제
                 //힌트 : Intent 사용하기 ADDEDITACTIVITY로 이동하기
